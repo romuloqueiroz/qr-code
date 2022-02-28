@@ -3,11 +3,18 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .card {
     background-color: #fff;
-    margin: 150px auto;
     width: 330px;
     height: 530px;
     border-radius: 20px;
@@ -46,6 +53,7 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    
 }
 
 @media screen and (min-width: 375px) and (max-width: 1440px) {
